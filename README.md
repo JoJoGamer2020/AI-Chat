@@ -74,21 +74,6 @@ The app automatically builds on every push to `main` branch via GitHub Actions:
 
 The signed APK will be in `app/build/outputs/apk/release/`
 
-### Monitor Script
-
-Use the included monitor script to track builds and download releases automatically:
-
-```bash
-./monitor.sh
-```
-
-**Features:**
-- Monitors GitHub Actions workflow status in real-time
-- Shows elapsed time during build
-- Auto-downloads APK when build succeeds
-- Displays error logs if build fails
-- Smart directory detection (Android/Termux/Linux/macOS)
-- Requires `gh` CLI and `GH_TOKEN` environment variable
 
 ## Configuration
 
