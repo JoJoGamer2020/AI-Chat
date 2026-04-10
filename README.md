@@ -79,14 +79,13 @@ The signed APK will be in `app/build/outputs/apk/release/`
 
 ### API Key (Optional)
 
-The app works **without an API key** using a proxy server. For custom API keys:
+The app works **without an API key** using a proxy server. For your own custom API keys:
 
 1. Open Settings (3-dot menu → API Key Settings)
 2. Enter your Pollinations AI API key
 3. Check balance with "Balance" button
 4. Get a key at: https://enter.pollinations.ai
 
-**Proxy URL:** `https://ai-proxy.universeking.workers.dev`  
 **Direct API URL:** `https://gen.pollinations.ai/v1/chat/completions`
 
 ### Model Sync
